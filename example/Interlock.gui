@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gui>
+  <properties>
+    <project>Interlock</project>
+    <designer>Richard Mullins</designer>
+    <size autoposition="scale">
+      <portrait width="768" height="1024" />
+      <landscape width="1024" height="768" />
+    </size>
+    <autoposition />
+    <imagefolder>assets</imagefolder>
+    <debug loaderrors="0" connectionerrors="0" />
+  </properties>
+  <systems>
+    <system name="LanBridge" protocol="tcp" accept="0" ip="192.168.2.12" port="10207" origin="0" alwayson="1" idleTimeout="0" dialogTimeout="0" heartbeatMode="-1" heartbeatRx="" heartbeatTx="" textEncoding="" eom="" js="" connectionStatus="0" disconnectionStatus="0" startupCmd="" startupMacro="" offlinequeue="1" ssl="0" />
+  </systems>
+  <themes>
+    <theme type="button" name=".btn_sq_lrg_stretch[state='0']"><![CDATA[padding: 0px 10px 0px 10px; -webkit-border-image: url(btn_sq_lrg_off.png) 0 10 0 10; text-shadow: rgba(255,255,255,0.78) 0px 1px 0px; color: #404040; font-size: 20px; font-family: 'Verdana'; font-weight: bold; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".btn_sq_lrg_stretch[state='1']"><![CDATA[padding: 0px 10px 0px 10px; -webkit-border-image: url(btn_sq_lrg_on.png) 0 10 0 10; text-shadow: rgba(0,0,0,0.78) 0px -1px 0px; color: White; font-size: 20px; font-family: 'Verdana'; font-weight: bold; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="background" name=".bg_landscape"><![CDATA[ background-image: url(bg_landscape.png); background-repeat: no-repeat;]]></theme>
+    <theme type="text" name=".20_c"><![CDATA[ text-shadow: rgba(255,255,255,0.78) 0px 1px 0px; color: #373737; font-size: 20px; font-name: 'HelveticaNeue-Bold'; font-family: 'Helvetica Neue'; text-align: center; vertical-align: middle; font-weight: bold; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="button" name=".btn_red_sq_lrg[state='0']"><![CDATA[padding: 0px 0px 0px 0px; color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".btn_red_sq_lrg[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_colors\btn_red_sq_lrg_off.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="background" name=".bg_portrait"><![CDATA[ background-image: url(bg_portrait.png); background-repeat: no-repeat;]]></theme>
+    <theme type="button" name=".btn_red_sq_lrg_1[state='0']"><![CDATA[padding: 0px 0px 0px 0px; color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".btn_red_sq_lrg_1[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_colors\btn_red_sq_lrg_off.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".btn_red_sq_lrg_2[state='0']"><![CDATA[padding: 0px 0px 0px 0px; color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".btn_red_sq_lrg_2[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_colors\btn_red_sq_lrg_off.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".btn_red_sq_lrg_3[state='0']"><![CDATA[padding: 0px 0px 0px 0px; color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".btn_red_sq_lrg_3[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_colors\btn_red_sq_lrg_off.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+  </themes>
+  <scripts>
+    <script name="config.js" />
+    <script name="interlock.js" />
+  </scripts>
+  <page name="Startup" j="0" tags="" transition="None" subtype="None" time="0" ease="" start="1">
+    <portrait t="bg_portrait">
+      <btn j="10" x="278" y="230" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="0" l="0" s="1" tags="">
+        <inactive s="0">10</inactive>
+        <active s="0">10</active>
+      </btn>
+      <btn j="11" x="383" y="230" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="0" l="0" s="1" tags="">
+        <inactive s="0">11</inactive>
+        <active s="0">11</active>
+      </btn>
+      <btn j="12" x="487" y="230" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="0" l="0" s="1" tags="">
+        <inactive s="0">12</inactive>
+        <active s="0">12</active>
+      </btn>
+      <btn j="20" x="278" y="331" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="1" l="0" s="1" tags="">
+        <inactive s="0">20</inactive>
+        <active s="0">20</active>
+      </btn>
+      <btn j="21" x="383" y="331" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="1" l="0" s="1" tags="">
+        <inactive s="0">21</inactive>
+        <active s="0">21</active>
+      </btn>
+      <btn j="22" x="487" y="331" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="1" l="0" s="1" tags="">
+        <inactive s="0">22</inactive>
+        <active s="0">22</active>
+      </btn>
+      <btn j="30" x="278" y="433" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="2" l="0" s="1" tags="">
+        <inactive s="0">30</inactive>
+        <active s="0">30</active>
+      </btn>
+      <btn j="31" x="383" y="433" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="2" l="0" s="1" tags="">
+        <inactive s="0">31</inactive>
+        <active s="0">31</active>
+      </btn>
+      <btn j="32" x="487" y="433" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="2" l="0" s="1" tags="">
+        <inactive s="0">32</inactive>
+        <active s="0">32</active>
+      </btn>
+      <txt j="0" x="94" y="245" w="169" h="51" t="20_c" wrap="False" l="0" tags="">No FB</txt>
+      <txt j="0" x="92" y="342" w="169" h="51" t="20_c" wrap="False" l="0" tags="">Momentary FB</txt>
+      <txt j="0" x="96" y="444" w="169" h="51" t="20_c" wrap="False" l="0" tags="">Toggle FB</txt>
+      <txt j="0" x="234" y="155" w="381" h="51" t="20_c" wrap="False" l="0" tags="">Use the same join for feedback</txt>
+      <btn j="40" x="278" y="636" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="0" l="0" s="1" tags="">
+        <inactive s="0">40</inactive>
+        <active s="0">40</active>
+      </btn>
+      <btn j="41" x="383" y="636" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="0" l="0" s="1" tags="">
+        <inactive s="0">41</inactive>
+        <active s="0">41</active>
+      </btn>
+      <btn j="42" x="487" y="636" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="0" l="0" s="1" tags="">
+        <inactive s="0">42</inactive>
+        <active s="0">42</active>
+      </btn>
+      <txt j="0" x="201" y="568" w="446" h="51" t="20_c" wrap="False" l="0" tags="">Press Join and IL join are different</txt>
+      <btn j="141" x="383" y="737" w="84" h="84" t="btn_red_sq_lrg" flip="None" sim="0" l="0" s="1" tags="">
+        <inactive s="0">141</inactive>
+        <active s="0">141</active>
+      </btn>
+      <btn j="142" x="487" y="737" w="84" h="84" t="btn_red_sq_lrg" flip="None" sim="0" l="0" s="1" tags="">
+        <inactive s="0">142</inactive>
+        <active s="0">142</active>
+      </btn>
+      <btn j="140" x="278" y="737" w="84" h="84" t="btn_red_sq_lrg" flip="None" sim="0" l="0" s="1" tags="">
+        <inactive s="0">140</inactive>
+        <active s="0">140</active>
+      </btn>
+    </portrait>
+    <landscape t="bg_landscape">
+      <btn j="10" x="366" y="112" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="0" l="0" s="1" tags="">
+        <inactive s="0">10</inactive>
+        <active s="0">10</active>
+      </btn>
+      <btn j="11" x="471" y="112" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="0" l="0" s="1" tags="">
+        <inactive s="0">11</inactive>
+        <active s="0">11</active>
+      </btn>
+      <btn j="12" x="575" y="112" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="0" l="0" s="1" tags="">
+        <inactive s="0">12</inactive>
+        <active s="0">12</active>
+      </btn>
+      <btn j="20" x="366" y="213" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="1" l="0" s="1" tags="">
+        <inactive s="0">20</inactive>
+        <active s="0">20</active>
+      </btn>
+      <btn j="21" x="471" y="213" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="1" l="0" s="1" tags="">
+        <inactive s="0">21</inactive>
+        <active s="0">21</active>
+      </btn>
+      <btn j="22" x="575" y="213" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="1" l="0" s="1" tags="">
+        <inactive s="0">22</inactive>
+        <active s="0">22</active>
+      </btn>
+      <btn j="30" x="366" y="315" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="2" l="0" s="1" tags="">
+        <inactive s="0">30</inactive>
+        <active s="0">30</active>
+      </btn>
+      <btn j="31" x="471" y="315" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="2" l="0" s="1" tags="">
+        <inactive s="0">31</inactive>
+        <active s="0">31</active>
+      </btn>
+      <btn j="32" x="575" y="315" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="2" l="0" s="1" tags="">
+        <inactive s="0">32</inactive>
+        <active s="0">32</active>
+      </btn>
+      <txt j="0" x="182" y="127" w="169" h="51" t="20_c" wrap="False" l="0" tags="">No FB</txt>
+      <txt j="0" x="180" y="224" w="169" h="51" t="20_c" wrap="False" l="0" tags="">Momentary FB</txt>
+      <txt j="0" x="184" y="326" w="169" h="51" t="20_c" wrap="False" l="0" tags="">Toggle FB</txt>
+      <txt j="0" x="322" y="37" w="381" h="51" t="20_c" wrap="False" l="0" tags="">Use the same join for feedback</txt>
+      <btn j="40" x="366" y="518" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="1" l="0" s="1" tags="">
+        <inactive s="0">40</inactive>
+        <active s="0">40</active>
+      </btn>
+      <btn j="41" x="471" y="518" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="1" l="0" s="1" tags="">
+        <inactive s="0">41</inactive>
+        <active s="0">41</active>
+      </btn>
+      <btn j="42" x="575" y="518" w="82" h="82" t="btn_sq_lrg_stretch" flip="None" sim="1" l="0" s="1" tags="">
+        <inactive s="0">42</inactive>
+        <active s="0">42</active>
+      </btn>
+      <txt j="0" x="289" y="450" w="446" h="51" t="20_c" wrap="False" l="0" tags="">Press Join and IL join are different</txt>
+      <btn j="141" x="471" y="619" w="84" h="84" t="btn_red_sq_lrg" flip="None" sim="0" l="0" s="1" tags="">
+        <inactive s="0">141</inactive>
+        <active s="0">141</active>
+      </btn>
+      <btn j="142" x="575" y="619" w="84" h="84" t="btn_red_sq_lrg" flip="None" sim="0" l="0" s="1" tags="">
+        <inactive s="0">142</inactive>
+        <active s="0">142</active>
+      </btn>
+      <btn j="140" x="366" y="619" w="84" h="84" t="btn_red_sq_lrg" flip="None" sim="0" l="0" s="1" tags="">
+        <inactive s="0">140</inactive>
+        <active s="0">140</active>
+      </btn>
+    </landscape>
+  </page>
+</gui>
