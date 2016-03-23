@@ -39,9 +39,10 @@ var main_il = new Interlock({
 
 This will set the interlock to the output connected to d40 (d140 in this case).
 
+##notes
 The interlock input joins can be triggered with either a press or by using CF.setJoin.
 
-A demo GUI file is included in this repo.
+This module works best when using either no feedback on the buttons, or using the toggle mode. You can see the difference between the different modes in the demo GUI file included in this repo.
 
 
 
